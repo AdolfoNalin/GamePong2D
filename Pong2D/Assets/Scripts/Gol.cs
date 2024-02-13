@@ -18,6 +18,5 @@ public class Gol : MonoBehaviour
             FindObjectOfType<GameManager>().AumentarPontuacaoJogador1();
             other.gameObject.transform.position = Vector2.zero;
         }
-
     }
 }
